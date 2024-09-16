@@ -39,7 +39,11 @@
       "_appName": "",
       "_appTitle": "",
       "_enableSearch": true,
-      "pdf": true
+      "pdf": true,
+      "markdownEngineName": "markdig",
+      "markdownEngineProperties": {
+      "enableCustomRule": true
+    }
     }
   }
 }
