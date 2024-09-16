@@ -1,12 +1,10 @@
 # CSL-prototype
 
-[!TIP]
-This is a tip block with important information.
+> [!TIP]
+> This is a tip block with important information.
 
-[!WARNING]
-This is a warning block.
+> [!WARNING]
+> This is a warning block.
 
-[!NOTE]
-This is a general note.
-
-
+> [!NOTE]
+> This is a general note.
