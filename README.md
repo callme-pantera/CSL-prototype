@@ -8,4 +8,3 @@
 
 > [!NOTE]
 > This is a general note.
-
