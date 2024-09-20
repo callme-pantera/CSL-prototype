@@ -24,7 +24,9 @@
     - [test 123](#test-123)
     - [test 321](#test-321)
   - [Overview](#overview)
+- [Sources](#sources)
 
+<!-- /TOC -->
 <!-- /TOC -->
 <!-- /TOC -->
 
@@ -34,6 +36,20 @@
 
 
 ## Overview
-In this project, I will document the process of creating a Cybersecurity Lab at home. The goal is to establish an environment protected from potential attacks or exploits that an external malicious user might try to take advantage of. <br>
-I will be building this from scratch and will make sure to document every single step, as I believe this will help me reflect better when I want to update or change something. This is not a tutorial or guide, just a documentation of my work and progress, the way I approach it.
+In this project, I will document the process of creating a Cybersecurity Lab at home. The goal is to establish an environment protected from potential attacks or exploits that an external malicious user might try to take advantage of. I will be building this from scratch and will make sure to document every single step, as I believe this will help me reflect better when I want to update or change something. This is not a tutorial or guide, just a documentation of my work and progress, the way I approach it.
+
+<br>
+
+> [!NOTE]
+> It is possible that my documentation and project may contain some mistakes or errors. Therefore, some prior knowledge of the topic is necessary to ensure clarity and avoid confusion.
+
+<br>
+
+# Sources
+
+- YouTube:  [Gerard O'Brien, Building the Ultimate Cybersecurity Lab](https://www.youtube.com/watch?v=XIvn0ZDSmKA&list=PL3ljjyal211AbTqlxSo6CGBiVqsXw8wrp&index=22)
+- Medium:   [TheInfoSec Guy](https://medium.com/@jibingeorge.mg/cybersecurity-research-lab-setup-5beb54d8dd59)
+- ChatGPT:  [OpenAI](https://chatgpt.com/)
+- Teachers
+- Friends
 
