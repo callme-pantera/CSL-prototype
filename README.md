@@ -1,10 +1,14 @@
+<div align="center">
+
 <div style="text-align: center;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="c:\Users\luka0\some stuff\private\templates\logos\pantera-1.4.png">
-    <source media="(prefers-color-scheme: light)" srcset="c:\Users\luka0\some stuff\private\templates\logos\pantera-1.3.png">
-    <img src="sources/stock/pantera-1.4.png" alt="Logo of X" width="350px">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/01_Logo/Repository-Logo.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/01_Logo/Repository-Logo.png">
+    <img src="assets/01_Logo/Repository-Logo.png" alt="Logo of X" width="350px">
   </picture>
 </div>
+
+<br>
 
 
 
