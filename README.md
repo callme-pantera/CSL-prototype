@@ -1,15 +1,5 @@
 # CLS-prototype
 
-> [!TIP]
-> This is a tip block with important information.
-
-> [!WARNING]
-> This is a warning block.
-
-> [!NOTE]
-> This is a general note.
-
-<br>
 
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
