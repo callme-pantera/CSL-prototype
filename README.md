@@ -1,4 +1,18 @@
-# CLS-prototype
+<div align="center">
+
+<div style="text-align: center;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="c:\Users\luka0\some stuff\private\templates\logos\pantera-1.4.png">
+    <source media="(prefers-color-scheme: light)" srcset="c:\Users\luka0\some stuff\private\templates\logos\pantera-1.3.png">
+    <img src="sources/stock/pantera-1.4.png" alt="Logo of X" width="350px">
+  </picture>
+</div>
+
+<br>
+
+
+
+# CSL-prototype
 
 
 > [!NOTE]  
@@ -18,7 +32,7 @@
 
 
 # Table of Contents
-- [CLS-prototype](#cls-prototype)
+- [CSL-prototype](#csl-prototype)
 - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
     - [Test 123](#test-123)
