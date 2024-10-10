@@ -38,15 +38,7 @@
 > Negative potential consequences of an action.
 
 
-# Table of Contents
-- [CSL-prototype](#csl-prototype)
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-  - [Concept](#concept)
-  - [These are the points I wanted to include in my Cybersecurity Lab:](#these-are-the-points-i-wanted-to-include-in-my-cybersecurity-lab)
-    - [Test 123](#test-123)
-      - [Test 321](#test-321)
-- [Sources](#sources)
+
 
 
 # Overview
