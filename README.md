@@ -1,5 +1,3 @@
-<div align="center">
-
 <div style="text-align: center;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="c:\Users\luka0\some stuff\private\templates\logos\pantera-1.4.png">
@@ -7,8 +5,6 @@
     <img src="sources/stock/pantera-1.4.png" alt="Logo of X" width="350px">
   </picture>
 </div>
-
-<br>
 
 
 
