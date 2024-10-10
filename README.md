@@ -7,15 +7,14 @@
     </picture>
   </div>
 
-<br>
+  <br>
 
-[![Issues Badge](https://img.shields.io/badge/ISSUES-0-Test?style=for-the-badge&logo=https%3A%2F%2Ficons8.com%2Ficon%2F83178%2Fimage-file&labelColor=%23333333&color=%234A90E2)](https://github.com/callme-pantera/CSL-prototype/issues)
-[![Stars Badge](https://img.shields.io/badge/STARS-1-Test?style=for-the-badge&logo=https%3A%2F%2Ficons8.com%2Ficon%2F83178%2Fimage-file&labelColor=%23333333&color=%23FF007F)](https://github.com/callme-pantera/CSL-prototype/stargazers)
-[![Commits Badge](https://img.shields.io/badge/COMMITS-43-Test?style=for-the-badge&logo=https%3A%2F%2Ficons8.com%2Ficon%2F83178%2Fimage-file&labelColor=%23333333&color=%23D32F2F)](https://github.com/callme-pantera/CSL-prototype/commits/main/)
-[![License Badge](https://img.shields.io/badge/LICENSE-CC-Test?style=for-the-badge&logo=https%3A%2F%2Ficons8.com%2Ficon%2F83178%2Fimage-file&labelColor=%23333333&color=%23f37f47)](Preview.md)
-
+  [![Issues Badge](https://img.shields.io/badge/ISSUES-0-Test?style=for-the-badge&logo=https%3A%2F%2Ficons8.com%2Ficon%2F83178%2Fimage-file&labelColor=%23333333&color=%234A90E2)](https://github.com/callme-pantera/CSL-prototype/issues)
+  [![Stars Badge](https://img.shields.io/badge/STARS-1-Test?style=for-the-badge&logo=https%3A%2F%2Ficons8.com%2Ficon%2F83178%2Fimage-file&labelColor=%23333333&color=%23FF007F)](https://github.com/callme-pantera/CSL-prototype/stargazers)
+  [![Commits Badge](https://img.shields.io/badge/COMMITS-43-Test?style=for-the-badge&logo=https%3A%2F%2Ficons8.com%2Ficon%2F83178%2Fimage-file&labelColor=%23333333&color=%23D32F2F)](https://github.com/callme-pantera/CSL-prototype/commits/main/)
+  [![License Badge](https://img.shields.io/badge/LICENSE-CC-Test?style=for-the-badge&logo=https%3A%2F%2Ficons8.com%2Ficon%2F83178%2Fimage-file&labelColor=%23333333&color=%23f37f47)](Preview.md)
 </div>
- 
+
 <br>
 
 
@@ -42,13 +41,15 @@
 # Table of Contents
 - [CSL-prototype](#csl-prototype)
 - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
+- [Overview](#overview)
+  - [Concept](#concept)
+  - [These are the points I wanted to include in my Cybersecurity Lab:](#these-are-the-points-i-wanted-to-include-in-my-cybersecurity-lab)
     - [Test 123](#test-123)
       - [Test 321](#test-321)
 - [Sources](#sources)
 
 
-## Overview
+# Overview
 In this project, I will document the process of creating a Cybersecurity Lab at home. The goal is to establish an environment protected from potential attacks or exploits that an external malicious user might try to take advantage of. I will be building this from scratch and will make sure to document every single step, as I believe this will help me reflect better when I want to update or change something. This is not a tutorial or guide, just a documentation of my work and progress, the way I approach it.
 
 <br>
@@ -57,6 +58,14 @@ In this project, I will document the process of creating a Cybersecurity Lab at 
 > It is possible that my documentation and project may contain some mistakes or errors. Therefore, some prior knowledge of the topic is necessary to ensure clarity and avoid confusion.
 
 <br>
+
+## Concept
+Before starting, I sat down and created a network plan using [Draw.io](https://app.diagrams.net/). The goal was to visualize my ideas and ensure that everything could be connected logically. I didn’t focus much on design, as I wanted to confirm the plan’s feasibility before refining its appearance. <br>
+
+These are the points I wanted to include in my Cybersecurity Lab:
+-
+-
+
 
 ### Test 123
 
