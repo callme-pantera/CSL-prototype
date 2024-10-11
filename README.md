@@ -55,8 +55,12 @@ In this project, I will document the process of creating a Cybersecurity Lab at 
 Before starting, I sat down and created a network plan using [Draw.io](https://app.diagrams.net/). The goal was to visualize my ideas and ensure that everything could be connected logically. I didn’t focus much on design, as I wanted to confirm the plan’s feasibility before refining its appearance.
 
 These are the points I wanted to include in my Cybersecurity Lab:
-- 1test
--
+- VPC with different subnets for different usage
+- Containers
+- Kali Linux
+- Firewall(s)
+- Monitoring Tools (OPNsense)
+- private network for protection "from the outside"
 
 
 ### Test 123
