@@ -41,8 +41,10 @@
 - [CSL-prototype](#csl-prototype)
 - [Table of content](#table-of-content)
 - [Overview](#overview)
-  - [Concept](#concept)
-  - [What do you need?](#what-do-you-need)
+- [Concept](#concept)
+- [What do you need?](#what-do-you-need)
+  - [Installation and configuration](#installation-and-configuration)
+    - [Proxmox](#proxmox)
     - [Test 123](#test-123)
       - [Test 321](#test-321)
 - [Sources](#sources)
@@ -51,7 +53,7 @@
 
 
 # Overview
-In this project, I will document the process of creating a Cybersecurity Lab at home. The goal is to establish an environment protected from potential attacks or exploits that an external malicious user might try to take advantage of. I will be building this from scratch and will make sure to document every single step, as I believe this will help me reflect better when I want to update or change something. This is not a tutorial or guide, just a documentation of my work and progress, the way I approach it.
+In this project, I will document the process of creating a **C**yber**s**ecurity **L**ab at home. The goal is to establish an environment protected from potential attacks or exploits that an external malicious user might try to take advantage of. I will be building this from scratch and will make sure to document every single step, as I believe this will help me reflect better when I want to update or change something. This is not a tutorial or guide, just a documentation of my work and progress, the way I approach it.
 I want to mention that you don’t have to follow every step exactly as I did. I’ll be documenting everything, including some details that may not be strictly necessary.
 
 <br>
@@ -61,7 +63,7 @@ I want to mention that you don’t have to follow every step exactly as I did. I
 
 <br>
 
-## Concept
+# Concept
 Before starting, I sat down and created a network plan using [Draw.io](https://app.diagrams.net/). The goal was to visualize my ideas and ensure that everything could be connected logically. I didn’t focus much on design, as I wanted to confirm the plan’s feasibility before refining its appearance.
 
 These are some of the points I wanted to include in my Cybersecurity Lab:
@@ -79,9 +81,27 @@ These are some of the points I wanted to include in my Cybersecurity Lab:
 
 <br>
 
-## What do you need?
+# What do you need?
 Throughout this project, I will be adding to and adjusting my documentation as needed. For now, here are the essential components you'll need:
-- [Proxmox](https://www.proxmox.com/en/proxmox-virtual-environment/get-started)
+- [Proxmox](https://www.proxmox.com/en/)
+- 
+
+## Installation and configuration
+Before I actually began the project, I wanted to install and configure all the necessary software, ISO files, etc., so that everything was ready for the CSL. The goal was to save time between the different stages of the project.
+
+### Proxmox
+For the Proxmox installation and configuration, I used the [documentation](https://www.proxmox.com/en/proxmox-virtual-environment/get-started) provided by Proxmox themselves and followed it step by step. Keep in mind to read carefully and not just click through—take the time to understand each step.
+
+<br>
+
+> [!CAUTION]
+> Installing the Proxmox ISO Installer will permanently overwrite the disk it is installed on, as it is a bare-metal installer. This means that any existing data will be permanently removed. Proceed with caution!
+
+<br>
+
+You should be able to install it on your own, as the documentation is quite clear. Here are the steps I followed for the installation:
+
+- Download Proxmox ISO image (*in my case the 8.2-2 version*)
 - 
 
 
