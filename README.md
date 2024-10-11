@@ -42,6 +42,7 @@
 - [Table of content](#table-of-content)
 - [Overview](#overview)
   - [Concept](#concept)
+  - [What do you need?](#what-do-you-need)
     - [Test 123](#test-123)
       - [Test 321](#test-321)
 - [Sources](#sources)
@@ -51,6 +52,7 @@
 
 # Overview
 In this project, I will document the process of creating a Cybersecurity Lab at home. The goal is to establish an environment protected from potential attacks or exploits that an external malicious user might try to take advantage of. I will be building this from scratch and will make sure to document every single step, as I believe this will help me reflect better when I want to update or change something. This is not a tutorial or guide, just a documentation of my work and progress, the way I approach it.
+I want to mention that you don’t have to follow every step exactly as I did. I’ll be documenting everything, including some details that may not be strictly necessary.
 
 <br>
 
@@ -71,10 +73,16 @@ These are some of the points I wanted to include in my Cybersecurity Lab:
 
 <br>
 
-| network plan CSL - draw.io |
+| network plan - draw.io |
 |:--------------------------------------------------:|
 |![network plan CSL](sources/ss/CSL-network-plan.png)|
 
+<br>
+
+## What do you need?
+Throughout this project, I will be adding to and adjusting my documentation as needed. For now, here are the essential components you'll need:
+- [Proxmox](https://www.proxmox.com/en/proxmox-virtual-environment/get-started)
+- 
 
 
 ### Test 123
