@@ -101,8 +101,37 @@ For the Proxmox installation and configuration, I used the [documentation](https
 
 You should be able to install it on your own, as the documentation is quite clear. Here are the steps I followed for the installation:
 
-- Download Proxmox ISO image (*in my case the 8.2-2 version*)
-- 
+- Download the Proxmox ISO image installer (*in my case the 8.2-2 version*)
+- Download [Rufus](https://rufus.ie/de/) or another USB burning tool
+- Burn the Proxmox ISO onto a USB drive with at least 8GB of free space
+- I used my old laptop to boot Proxmox from the USB drive --> BIOS
+- Proceed with the Proxmox installation
+
+<br>
+
+> [!WARNING]  
+> As mentioned earlier, burning this disk with the Proxmox ISO file will permanently erase ALL DATA on the selected disk!
+
+<br>
+
+| Rufus setup  |
+|:---------------------------------|---------------------------------:|
+|![Rufus 1](sources/ss/rufus-1.png)|![Rufus 2](sources/ss/rufus-2.png)|
+
+<br>
+
+| Proxmox Booting via USB Drive |
+|:--------------------------------------------------------:|:---------------------------------------------------------:|
+|![BIOS boot proxmox........](sources/ss/boot-proxmox1.jpg)|![BIOS boot proxmox success](sources/ss/boot-proxmox22.jpg)|
+
+<br>
+
+> [!TIP]  
+> In my case, the laptop was an ACER tablet, and to access the BIOS, I had to continuously press the F2 button. Be sure to research your specific laptop model, as the method for accessing the BIOS can vary from model to model.
+
+<br>
+
+
 
 
 ### Test 123
