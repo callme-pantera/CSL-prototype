@@ -115,21 +115,6 @@ You should be able to install it on your own, as the documentation is quite clea
 
 <br>
 
-| Rufus setup  |
-| -------------------------------- | -------------------------------- |
-|![Rufus 1](sources/ss/rufus-1.png)|![Rufus 2](sources/ss/rufus-2.png)|
-
-<br>
-
-| Proxmox Booting via USB Drive |
-| ----------------------------------------------- | --------------------------------------------------------- |
-![BIOS boot proxmox](sources/ss/boot-proxmox1.jpg)|![BIOS boot proxmox success](sources/ss/boot-proxmox22.jpg)
-
-
-
-
-
-
 <h2>Rufus Setup</h2>
 <div style="display: flex; justify-content: space-between;">
   <img src="sources/ss/rufus-1.png" alt="Rufus 1" style="width: 45%;" />
