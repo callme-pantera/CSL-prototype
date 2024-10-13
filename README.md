@@ -29,6 +29,7 @@
 - [What do you need?](#what-do-you-need)
   - [Installation and configuration](#installation-and-configuration)
     - [Proxmox](#proxmox)
+      - [Troubleshooting](#troubleshooting)
     - [Test 123](#test-123)
       - [Test 321](#test-321)
         - [Test 123321](#test-123321)
@@ -116,11 +117,14 @@ You should be able to install it on your own, as the documentation is quite clea
 <br>
 
 > [!TIP]  
-> In my case, the laptop was an ACER tablet, and to access the BIOS, I had to continuously press the F2 button. Be sure to research your specific laptop model, as the method for accessing the BIOS can vary from model to model.
+> In my case, the laptop was an ACER Switch Alpha 12, and to access the BIOS, I had to continuously press the F2 button. Be sure to research your specific laptop model, as the method for accessing the BIOS can vary from model to model.
 
 <br>
 
+I proceeded with the installation and setup of Proxmox on my Acer laptop but encountered several issues. When I attempted to apply the configurations I had made, an error kept occurring, regardless of what I tried to fix it. The root of the problem was that the Proxmox installer had difficulties with the laptop's partition. I tried multiple solutions, but unfortunately, none were successful.
 
+
+#### Troubleshooting
 
 
 ### Test 123
