@@ -20,16 +20,13 @@
 
 
 # CSL-prototype
-
-# Table of content
 - [CSL-prototype](#csl-prototype)
-- [Table of content](#table-of-content)
 - [Overview](#overview)
 - [Concept](#concept)
 - [What do you need?](#what-do-you-need)
   - [Installation and configuration](#installation-and-configuration)
     - [Proxmox](#proxmox)
-      - [Troubleshooting](#troubleshooting)
+      - [Troubleshooting - Potential Partition Error](#troubleshooting---potential-partition-error)
     - [Test 123](#test-123)
       - [Test 321](#test-321)
         - [Test 123321](#test-123321)
@@ -124,7 +121,22 @@ You should be able to install it on your own, as the documentation is quite clea
 I proceeded with the installation and setup of Proxmox on my Acer laptop but encountered several issues. When I attempted to apply the configurations I had made, an error kept occurring, regardless of what I tried to fix it. The root of the problem was that the Proxmox installer had difficulties with the laptop's partition. I tried multiple solutions, but unfortunately, none were successful.
 
 
-#### Troubleshooting
+#### Troubleshooting - Potential Partition Error
+If you're interested in my troubleshooting process, feel free to read on. I can’t guarantee that everything will be perfectly clear, as I didn’t intend to write this section in great detail. While I may not find a solution, I will still document the entire process. <br>
+
+As mentioned earlier, I tried several solutions before moving on to the partition troubleshooting. If you encounter the same issue, please make sure you've tried the following steps first:
+
+| Cause                        | Description                                                                                                               | Solution                                                                                                                                     |
+|------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| Hardware Compatibility       | Possible hardware incompatibility with Proxmox, especially regarding the hard drive or eMMC storage.                      | - Ensure that your hardware is compatible with Proxmox, particularly the hard drive or eMMC storage.                                         |
+| Faulty Installation Medium   | The installation medium may be damaged or incorrectly created.                                                            | - Check the installation medium for errors.<br> - Recreate the medium using a reliable tool like Rufus or Etcher.                            |
+| Incorrect Storage Device Type| Attempting to install Proxmox on an eMMC or SD card storage, which can lead to problems.                                  | - Install Proxmox on a conventional SSD or HDD, if available.                                                                                |
+| BIOS/UEFI Settings           | Incorrect BIOS/UEFI configuration that prevents booting from the installation medium.                                     | - Check if BIOS/UEFI is correctly configured to boot from the installation medium.<br> - Adjust the boot mode (UEFI or Legacy) as necessary. |
+| Partitioning Issues          | Problems with creating or accessing necessary partitions.                                                                 | - Use GParted from a Live-USB Linux system to check and adjust partitioning.<br> - Delete existing partitions for a clean installation.      |
+
+<br>
+
+
 
 
 ### Test 123
