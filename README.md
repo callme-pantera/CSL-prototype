@@ -190,12 +190,14 @@ I then proceeded with the installation as normal and waited for it to finish.
 
 <h4>Debug Mode - Installation failure</h4>
 <div style="display: flex; justify-content: space-between;">
-  <img src="sources/ss/failure-debug-mode.jpg" alt="error" style="width: 50%;" />
+  <img src="sources/ss/failure-debug-mode.jpg" alt="error" style="width: 45%;" />
 </div>
 
 <br>
 
-As I proceeded with the provided solution from our friends in Hong Kong and the gentleman who translated it, I still encountered an issue. Even though everything was done correctly, a new error occurred at the end of the installation regarding the bootloader process. It was unable to install the EFI bootloader on my laptop (*/dev/mmcblk1*).
+As I proceeded with the provided solution from our friends in Hong Kong and the gentleman who translated it, I still encountered an issue. Even though everything was done correctly, a new error occurred at the end of the installation regarding the bootloader process. It was unable to install the EFI bootloader on my laptop (*/dev/mmcblk1*).<br>
+
+The problem turned out to be rather simple and obvious, but since I was working on this late at night (or early morning), my brain wasn’t sharp enough to catch it right away. Here’s how I solved the issue:
 
 
 ### Test 123
