@@ -117,7 +117,11 @@ You should be able to install it on your own, as the documentation is quite clea
 
 <br>
 
-I proceeded with the installation and setup of Proxmox on my Acer laptop but encountered several issues. When I attempted to apply the configurations I had made, an error kept occurring, regardless of what I tried to fix it. The root of the problem was that the Proxmox installer had difficulties with the laptop's partition. I tried multiple solutions, but unfortunately, none were successful.
+I proceeded with the installation and setup of Proxmox on my Acer laptop but encountered several issues. When I attempted to apply the configurations I had made, an error kept occurring, regardless of what I tried to fix it. The root of the problem was that the Proxmox installer had difficulties with the laptop's partition. I tried multiple solutions, but unfortunately, none were successful.<br>
+
+If you'd like to read through my troubleshooting process, you can find all the documentation in the *troubleshooting* folder or [here](troubleshooting/troubleshooting-partition-issue.md).
+
+
 
 <br>
 <br>
