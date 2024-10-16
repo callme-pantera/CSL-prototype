@@ -53,18 +53,18 @@ I then proceeded with the installation as normal and waited for it to finish.
 
 <h4>Proxmox Terminal UI, Debug Mode</h4>
 <div style="display: flex; justify-content: space-between;">
-  <img src="troubleshooting/ss/terminal-debug-mode-installation.jpg" alt="Terminal UI, Debug Mode" style="width: 45%;" />
-  <img src="troubleshooting/ss/exit-1.jpg" alt="1. exit" style="width: 45%;" />
+  <img src="ss/terminal-debug-mode-installation.jpg" alt="Terminal UI, Debug Mode" style="width: 45%;" />
+  <img src="ss/exit-1.jpg" alt="1. exit" style="width: 45%;" />
 </div>
 
 <br>
 
 <h4>Debug Mode - config file</h4>
 <div style="display: flex; justify-content: space-between;">
-  <img src="troubleshooting/ss/cd-Block.pm-file.jpg" alt="file path" style="width: 45%;" />
-  <img src="troubleshooting/ss/block.pm-code.jpg" alt="file code" style="width: 45%;" />
-  <img src="troubleshooting/ss/exit-2.jpg" alt="2. exit"; style="width: 45%;" />
-  <img src="troubleshooting/ss/failure-debug-mode.jpg" alt="error" style="width: 45%;" />
+  <img src="ss/cd-Block.pm-file.jpg" alt="file path" style="width: 45%;" />
+  <img src="ss/block.pm-code.jpg" alt="file code" style="width: 45%;" />
+  <img src="ss/exit-2.jpg" alt="2. exit"; style="width: 45%;" />
+  <img src="ss/failure-debug-mode.jpg" alt="error" style="width: 45%;" />
 </div>
 
 <br>
