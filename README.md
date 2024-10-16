@@ -137,13 +137,48 @@ As mentioned earlier, I tried several solutions before moving on to the partitio
 <br>
 
 I attempted to fix the partitioning issues by booting an Ubuntu Desktop ISO on the laptop and using the GParted tool for partitioning. I created a new partition, hoping it would resolve the issue, as the fresh partition shouldn’t have any errors or problems. Unfortunately, this didn’t work either, and I had to improvise.
-I did some research in old Proxmox forums and, luckily, I found someone who had the same issue and managed to fix it. The website was in Chinese, but another user had thankfully translated it, making it easy to follow from there.
+I did some research in old Proxmox forums and, luckily, I found someone who had the same issue and managed to fix it. The website was in Chinese, but another user had thankfully translated it, making it easy to follow from there. <br>
+
+**Step 1:**  
+Instead of the normal Graphical Installation, I clicked on *Advanced Options* and selected the *Terminal UI, Debug Mode* installation method.
+
+**Step 2:**  
+After selecting it, a command prompt appeared. I exited this prompt because it wasn’t the one we needed. After exiting, I was redirected to the correct command prompt.
+
+**Step 3:**  
+To proceed, I needed to edit a crucial configuration file for the installation process.
+```
+$ cd /usr/share/perl5/Proxmox/Sys/
+$ nano Block.pm 
+```
+
+**Step 4:**  
+In the file, I located the "partition section" to define the correct parameters:
+```
+} elsif ($dev =~ m|^/dev/mmcblk\d+$|) {
+     return "${dev}p$partnum";
+```
+After making the changes, I saved the file and exited.  
+*Note: The code in the screenshot is incorrect; use the one provided in my repository.*
+
+**Step 5:**  
+I then proceeded with the installation as normal and waited for it to finish.
 
 <br>
 
 > [!IMPORTANT]  
 > [Original Chinese website](https://18kas.com/pve-with-emmc) and [the translated website](https://ibug.io/blog/2022/03/install-proxmox-ve-emmc/)
 
+<br>
+
+<h4>Proxmox Terminal UI, Debug Mode</h4>
+<div style="display: flex; justify-content: space-between;">
+  <img src="sources/ss/terminal-debug-mode-installation.jpg" alt="Terminal UI, Debug Mode" style="width: 35%;" />
+  <img src="sources/ss/exit-1.jpg" alt="1. exit" style="width: 35%;" />
+  <img src="sources/ss/cd-Block.pm-file.jpg" alt="config file path" style="width: 35%;" />
+</div>
+
+As I proceeded with the provided solution from our friends in Hong Kong and the gentleman who translated it, I still encountered an issue. Even though everything was done correctly, a new error occurred at the end of the installation regarding the bootloader process. It was unable to install the EFI bootloader on my laptop (*/dev/mmcblk1*).
 
 
 ### Test 123
