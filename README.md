@@ -195,9 +195,18 @@ I then proceeded with the installation as normal and waited for it to finish.
 
 <br>
 
-As I proceeded with the provided solution from our friends in Hong Kong and the gentleman who translated it, I still encountered an issue. Even though everything was done correctly, a new error occurred at the end of the installation regarding the bootloader process. It was unable to install the EFI bootloader on my laptop (*/dev/mmcblk1*).<br>
+The problem turned out to be rather simple and obvious, but since I was working on this late at night (or early morning), my brain wasn’t sharp enough to catch it right away. Here’s how I **attempted** to solve the issue:
 
-The problem turned out to be rather simple and obvious, but since I was working on this late at night (or early morning), my brain wasn’t sharp enough to catch it right away. Here’s how I solved the issue:
+- Installed an Ubuntu Desktop ISO and burned it onto my USB stick.
+- Instead of installing Ubuntu, I chose the "Try Ubuntu" option (either works).
+- Used Gparted to fix, redo, or configure the partitions.
+- After saving, I booted the Proxmox installation in Debug Mode again.
+
+Unfortunately, it didn’t work again. I realized I had a much bigger problem: damage to the eMMC itself. In an attempt to fix my laptop, I disassembled it and found that the cost of repair wasn’t worth it.
+
+In short, the issue was that the BIOS boot order didn’t list anything besides the flash drive. It didn’t even recognize the hard drive, which indicated a hardware issue. Upon disassembling, I found that pretty much everything was loose or worn out—understandable since I hadn’t taken care of it for ages, especially during my school days.<br>
+
+Unfortunately, I have to halt this project until further notice, as I don’t have a spare laptop or computer. If I can’t find one soon, I’ll either buy one or resort to using VMs, which I’d prefer not to do for my Cyberlab. I want to run it on physical hardware, not fully virtualized—because, why not?
 
 
 ### Test 123
