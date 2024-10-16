@@ -173,10 +173,27 @@ I then proceeded with the installation as normal and waited for it to finish.
 
 <h4>Proxmox Terminal UI, Debug Mode</h4>
 <div style="display: flex; justify-content: space-between;">
-  <img src="sources/ss/terminal-debug-mode-installation.jpg" alt="Terminal UI, Debug Mode" style="width: 35%;" />
-  <img src="sources/ss/exit-1.jpg" alt="1. exit" style="width: 35%;" />
-  <img src="sources/ss/cd-Block.pm-file.jpg" alt="config file path" style="width: 35%;" />
+  <img src="sources/ss/terminal-debug-mode-installation.jpg" alt="Terminal UI, Debug Mode" style="width: 45%;" />
+  <img src="sources/ss/exit-1.jpg" alt="1. exit" style="width: 45%;" />
 </div>
+
+<br>
+
+<h4>Debug Mode - config file</h4>
+<div style="display: flex; justify-content: space-between;">
+  <img src="sources/ss/cd-Block.pm-file.jpg" alt="file path" style="width: 45%;" />
+  <img src="sources/ss/block.pm-code.jpg" alt="file code" style="width: 45%;" />
+  <img src="sources/ss/exit-2.jpg" alt="2. exit"; style="width: 45%;" />
+</div>
+
+<br>
+
+<h4>Debug Mode - Installation failure</h4>
+<div style="display: flex; justify-content: space-between;">
+  <img src="sources/ss/failure-debug-mode.jpg" alt="error" style="width: 50%;" />
+</div>
+
+<br>
 
 As I proceeded with the provided solution from our friends in Hong Kong and the gentleman who translated it, I still encountered an issue. Even though everything was done correctly, a new error occurred at the end of the installation regarding the bootloader process. It was unable to install the EFI bootloader on my laptop (*/dev/mmcblk1*).
 
