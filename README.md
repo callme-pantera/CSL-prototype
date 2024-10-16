@@ -184,6 +184,7 @@ I then proceeded with the installation as normal and waited for it to finish.
   <img src="sources/ss/cd-Block.pm-file.jpg" alt="file path" style="width: 45%;" />
   <img src="sources/ss/block.pm-code.jpg" alt="file code" style="width: 45%;" />
   <img src="sources/ss/exit-2.jpg" alt="2. exit"; style="width: 45%;" />
+  <img src="sources/ss/failure-debug-mode.jpg" alt="error" style="width: 45%;" />
 </div>
 
 <br>
