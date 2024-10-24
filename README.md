@@ -17,23 +17,6 @@
 
 <br>
 
-
-
-# CSL-prototype
-- [CSL-prototype](#csl-prototype)
-- [Overview](#overview)
-- [Concept](#concept)
-- [What do you need?](#what-do-you-need)
-  - [Installation and configuration](#installation-and-configuration)
-    - [Proxmox](#proxmox)
-    - [Test 123](#test-123)
-      - [Test 321](#test-321)
-        - [Test 123321](#test-123321)
-- [Sources](#sources)
-
-
-
-
 # Overview
 In this project, I will document the process of creating a **C**yber**s**ecurity **L**ab at home. The goal is to establish an environment protected from potential attacks or exploits that an external malicious user might try to take advantage of. I will be building this from scratch and will make sure to document every single step, as I believe this will help me reflect better when I want to update or change something. This is not a tutorial or guide, just a documentation of my work and progress, the way I approach it.
 I want to mention that you don’t have to follow every step exactly as I did. I’ll be documenting everything, including some details that may not be strictly necessary.
