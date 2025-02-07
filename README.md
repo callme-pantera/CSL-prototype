@@ -110,8 +110,6 @@ If you’d like to read through my troubleshooting process, you can find all the
 
 > [!TIP]  
 > In my case, the laptop was an ACER Switch Alpha 12, which came with eMMC (embedded MultiMediaCard) storage. eMMCs are often found in budget devices due to their low cost, but they provide limited performance and durability compared to other storage options. They are suitable for basic tasks but lack the speed and reliability needed for more demanding applications.
-> <br>
-> A better alternative is a Solid State Drive (SSD), which offers faster read/write speeds, improved durability, and better overall performance. For general use, SATA SSDs are a significant upgrade over eMMCs. For high-performance needs, NVMe SSDs are recommended due to their superior speed and efficiency, especially for tasks like multitasking, gaming, and data-intensive work.
 
 <br>
 
