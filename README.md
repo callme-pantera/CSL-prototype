@@ -92,7 +92,7 @@ You should be able to install it on your own, as the documentation is quite clea
 
 <br>
 
-<h4>Proxmox Booting via USB Drive</h4>
+<h4>Proxmox Booting via USB Drive - 1st Attempt</h4>
 <div style="display: flex; justify-content: space-between;">
   <img src="assets/images/boot-proxmox1.jpg" alt="BIOS boot proxmox" style="width: 45%;" />
   <img src="assets/images/boot-proxmox22.jpg" alt="BIOS boot proxmox success" style="width: 45%;" />
@@ -100,14 +100,20 @@ You should be able to install it on your own, as the documentation is quite clea
 
 <br>
 
-> [!TIP]  
-> In my case, the laptop was an ACER Switch Alpha 12, and to access the BIOS, I had to continuously press the F2 button. Be sure to research your specific laptop model, as the method for accessing the BIOS can vary from model to model.
+I proceeded with the installation and setup of Proxmox on my Acer laptop but encountered several issues. When I attempted to apply the configurations I had made, an error kept occurring despite my various attempts to fix it. The root of the problem was that the Proxmox installer had difficulties with the laptop's partition. I tried multiple solutions, but unfortunately, none were successful.
+
+To keep a long story short, the real reason Proxmox had issues with my laptop’s partition was that the eMMC itself was damaged or faulty.
+
+If you’d like to read through my troubleshooting process, you can find all the documentation in the ***troubleshooting folder*** or [here](troubleshooting/troubleshooting-partition-issue.md).
 
 <br>
 
-I proceeded with the installation and setup of Proxmox on my Acer laptop but encountered several issues. When I attempted to apply the configurations I had made, an error kept occurring, regardless of what I tried to fix it. The root of the problem was that the Proxmox installer had difficulties with the laptop's partition. I tried multiple solutions, but unfortunately, none were successful.<br>
+> [!TIP]  
+> In my case, the laptop was an ACER Switch Alpha 12, which came with eMMC (embedded MultiMediaCard) storage. eMMCs are often found in budget devices due to their low cost, but they provide limited performance and durability compared to other storage options. They are suitable for basic tasks but lack the speed and reliability needed for more demanding applications.
+> <br>
+> A better alternative is a Solid State Drive (SSD), which offers faster read/write speeds, improved durability, and better overall performance. For general use, SATA SSDs are a significant upgrade over eMMCs. For high-performance needs, NVMe SSDs are recommended due to their superior speed and efficiency, especially for tasks like multitasking, gaming, and data-intensive work.
 
-If you'd like to read through my troubleshooting process, you can find all the documentation in the *troubleshooting* folder or [here](troubleshooting/troubleshooting-partition-issue.md).
+<br>
 
 
 
