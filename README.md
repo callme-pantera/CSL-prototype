@@ -104,12 +104,12 @@ I proceeded with the installation and setup of Proxmox on my Acer laptop but enc
 
 To keep a long story short, the real reason Proxmox had issues with my laptop’s partition was that the eMMC itself was damaged or faulty.
 
-If you’d like to read through my troubleshooting process, you can find all the documentation in the ***troubleshooting folder*** or [here](troubleshooting/troubleshooting-partition-issue.md).
+If you’d like to read through my troubleshooting process, you can find all the documentation in the ***troubleshooting folder*** or [here](troubleshooting/TS-proxmox-laptop-issue.md).
 
 <br>
 
 > [!TIP]  
-> In my case, the laptop was an ACER Switch Alpha 12, which came with eMMC (embedded MultiMediaCard) storage. eMMCs are often found in budget devices due to their low cost, but they provide limited performance and durability compared to other storage options. They are suitable for basic tasks but lack the speed and reliability needed for more demanding applications.
+> My ACER Switch Alpha 12 came with eMMC (embedded MultiMediaCard) storage, commonly found in budget devices due to its low cost. While eMMCs work for basic tasks, they lack the speed and durability needed for more demanding use. A better option is an SSD, which offers faster performance and greater reliability, making it ideal for long-term, intensive tasks.
 
 <br>
 
