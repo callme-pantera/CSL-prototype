@@ -82,7 +82,6 @@ You should be able to install it on your own, as the documentation is quite clea
 > [!WARNING]  
 > As mentioned earlier, burning this disk with the Proxmox ISO file will permanently erase **ALL DATA** on the selected disk!
 
-<br>
 
 <h4>Rufus Setup</h4>
 <div style="display: flex; justify-content: space-between;">
